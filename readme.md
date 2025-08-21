@@ -1,4 +1,4 @@
-# 🔐 Cryptography Class Projects
+# 🔐 Ezekiel Personal Projects
 
 Welcome to my Personal Project repository! Here you’ll find a curated collection of **tutorial, labworks, and mini project** from my college study and my personal research.
 
@@ -6,10 +6,10 @@ Welcome to my Personal Project repository! Here you’ll find a curated collecti
 
 ## 📚 Repository Contents
 
-- **✍️ Core Implementations**  
-- **🔍 Encryption & Decryption Demos**  
-- **🛠️ Custom Python Utilities**  
-- **📖 Documentation & Guides**  
+- **✍️ Sabar**  
+- **🔍 Sabar**  
+- **🛠️ Sabar**  
+- **📖 Sabar**  
 
 ---
 
