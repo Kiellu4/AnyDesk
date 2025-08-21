@@ -71,5 +71,4 @@ Demonstration output:
 - tcpdump confirmed attack detection.
 Rules that I put in ‘local.rules’:
 
-📷 Screenshot:
 ![Q4](Screenshots/local_rules.png)  
