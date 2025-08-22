@@ -63,16 +63,16 @@ Demonstration output:
 ![Q3](Screenshots/icmp.png) 
 
 2. HTTP Traffic Detected:
-![Q3](Screenshots/HTTP.png) 
+![Q3](Screenshots/http.png) 
 
 3. SSH Attempt Detected:
-![Q3](Screenshots/SSH.png) 
+![Q3](Screenshots/ssh.png) 
 
 4. Nmap Scan Detected:
-![Q3](Screenshots/Nmap.png) 
+![Q3](Screenshots/nmap.png) 
 
 5. Hydra Scan Detected:
-![Q3](Screenshots/Hydra.png)  
+![Q3](Screenshots/hydra.png)  
 
 ### 4. Interpret the result and your findings? Your explanation may include the result of your SNORT and how you elaborate the findings. ###
 - Snort detected attacks based on configured rules.
@@ -81,7 +81,7 @@ Demonstration output:
 - Rules differentiate attacks by protocol, port, flags, and behaviour.
 - tcpdump confirmed attack detection.
 Rules that I put in ‘local.rules’:
-![Q4](Screenshots/local_rules.png)  
+![Q4](Screenshot/local_rules.png)  
 
 ---
 
@@ -97,7 +97,7 @@ Software was installed in a virtual machine:
 ## Network Card Configuration ##
 Run VMWare manager and configure the **‘Network Adapter’** of the guest machine to
 **‘Bridged (Automatic)'** mode.
-![NCC](Screenshots/network_card.png) 
+![NCC](Screenshot/network_card.png) 
 
 ---
 
@@ -106,7 +106,7 @@ Start your guest machine and set its network interface card to a static IP, for 
 ```bash
 ifconfig
 ```
-![GM](Screenshots/guest_machine.png)
+![GM](Screenshot/guest_machine.png)
 
 ---
 
@@ -118,37 +118,49 @@ ifconfig
 ```bash
 sudo zypper install gcc gcc-c++ make flex bison libpcap-devel pcre pcre-devel libdnet-devel zlib-devel luajit luajit-devel libopenssl-devel libtirpc-devel
 ```
+
 📷 Screenshot:
- ![step1](Screenshots/step1_image1.png)
+![step1](Screenshot/step1_image1.png)
 
 2. The configure command must end with the following:
- 📷 Screenshot:
- ![step1](Screenshots/step1_image2.png) 
 
- ### 🔹 Step 2:	Downloading Required Files ###
+📷 Screenshot:
+![step1](Screenshot/step1_image2.png) 
+
+ ### 🔹 Step 2: Downloading Required Files ###
 
 1. Navigate to the Downloads directory:
 ```bash
 cd ~/Downloads
 ```
+
 📷 Screenshot:
-![step2](Screenshots/step2_image1.png) 
+![step2](Screenshot/step2_image1.png) 
 
 2. Download the required packages:
 ```bash
 wget -c https://snort.org/downloads/snort/daq-2.0.7.tar.gz
 ```
+
 📷 Screenshot:
-![step2](Screenshots/step2_image2.png)  
+![step2](Screenshot/step2_image2.png)  
 
 ```bash
 wget -c https://snort.org/downloads/snort/snort-2.9.20.tar.gz 
 ```
+
 📷 Screenshot:
-![step2](Screenshots/step2_image3.png)   
+![step2](Screenshot/step2_image3.png)   
 
+### 🔹 Step 3: Extracting Files ###
 
+1. Switch to the root user:
+```bash
+sudo su
+```
 
+📷 Screenshot:
+![step3](Screenshot/step3_image1.png)  
 
 
 
