@@ -170,6 +170,61 @@ cd /usr/local/src
 📷 Screenshot:
 ![step3](Screenshots/step3_image2.png)
 
+3. Extract the downloaded tar files:
+```bash
+tar -xzf /home/opensuse/Downloads/daq-2.0.7.tar.gz
+tar -xzf /home/opensuse/Downloads/snort-2.9.20.tar.gz
+```
+
+📷 Screenshot:
+![step3](Screenshots/step3_image3.png)
+
+### 🔹 Step 4: Installing DAQ (Data Acquisition Library) ###
+
+1. Navigate to the DAQ directory:
+```bash
+cd /usr/local/src/daq-2.0.7/
+```
+
+📷 Screenshot:
+![step4](Screenshots/step4_image1.png) 
+
+2. Run the following commands to configure and install DAQ:
+```bash
+./configure
+```
+
+📷 Screenshot:
+![step4](Screenshots/step4_image2.png)  
+
+3. The configure command must end with the following:
+
+📷 Screenshot:
+![step4](Screenshots/step4_image3.png)  
+
+```bash
+make
+```
+
+📷 Screenshot:
+![step4](Screenshots/step4_image4.png) 
+
+4. The configure command must end with the following:
+
+📷 Screenshot:
+![step4](Screenshots/step4_image5.png)  
+
+```bash
+make install
+```
+
+📷 Screenshot:
+![step4](Screenshots/step4_image6.png)  
+
+### 🔹 Step 5:  ###
+
+
+
 
 
 
