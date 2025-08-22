@@ -22,19 +22,30 @@ System Requirements:
 
 Installation Steps:
 1. Install Dependencies:
+```bash
 - sudo zypper install gcc gcc-c++ libpcap libpcap-devel libdnet-devel flex bison
+```
+
 2. Download and Install DAQ:
-- wget https://www.snort.org/downloads/snort/daq-2.0.7.tar.gz
-- tar -xzf daq-2.0.7.tar.gz
-- cd daq-2.0.7
-- ./configure && make && sudo make install
+```bash
+wget https://www.snort.org/downloads/snort/daq-2.0.7.tar.gz
+tar -xzf daq-2.0.7.tar.gz
+cd daq-2.0.7
+./configure && make && sudo make install
+```
+
 3. Download and Install Snort:
+```bash
 - wget https://www.snort.org/downloads/snort/snort-2.9.20.tar.gz
 - tar -xzf snort-2.9.20.tar.gz
 - cd snort-2.9.20
 - ./configure --enable-sourcefire && make && sudo make install
+```
+
 4. Verify Installation:
+```bash
 - snort -V
+```
 
 ### 2. Explain your expectation from this lab. What is your achievement before and after lab completion? ###
 **Before the Lab:** Expected to learn how to install and configure Snort properly, create rules, and analyze network traffic.
