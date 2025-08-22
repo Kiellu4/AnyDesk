@@ -83,3 +83,32 @@ Demonstration output:
 Rules that I put in ‘local.rules’:
 
 ![Q4](Screenshots/local_rules.png)  
+
+---
+
+## About This Guide ##
+This guide has been tested on **OpenSuSE15.4** VMWare, 64 bits, using **DAQ 2.0.7** and **Snort 2.9.20**.
+Software was installed in a virtual machine:
+- Virtual Machine Manager: VMWare Work Station 17.5.0
+- HOST operating system: kali-linux-2024.4-vmware-amd64
+- GUEST operating system: openSUSE Leap 15.4 (Snort will be installed here)
+
+---
+
+## Network Card Configuration ##
+Run VMWare manager and configure the **‘Network Adapter’** of the guest machine to
+**‘Bridged (Automatic)'** mode.
+
+![NCC](Screenshots/network_card.png) 
+
+---
+
+## Guest Machine ##
+Start your guest machine and set its network interface card to a static IP, for example: 192.168.234.5, then check settings:
+```bash
+ifconfig
+```
+
+![GM](Screenshots/guest_machine.png)
+
+---
