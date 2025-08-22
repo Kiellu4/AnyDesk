@@ -81,7 +81,6 @@ Demonstration output:
 - Rules differentiate attacks by protocol, port, flags, and behaviour.
 - tcpdump confirmed attack detection.
 Rules that I put in ‘local.rules’:
-
 ![Q4](Screenshots/local_rules.png)  
 
 ---
@@ -98,7 +97,6 @@ Software was installed in a virtual machine:
 ## Network Card Configuration ##
 Run VMWare manager and configure the **‘Network Adapter’** of the guest machine to
 **‘Bridged (Automatic)'** mode.
-
 ![NCC](Screenshots/network_card.png) 
 
 ---
@@ -108,15 +106,56 @@ Start your guest machine and set its network interface card to a static IP, for 
 ```bash
 ifconfig
 ```
-
 ![GM](Screenshots/guest_machine.png)
 
 ---
 
 ## Snort Installation Guide ##
 
-### 1. Prerequisites ###
-Before installing Snort, ensure you have the necessary dependencies by running:
+### 🔹 Step 1: Prerequisites ###
+
+1. Before installing Snort, ensure you have the necessary dependencies by running:
 ```bash
 sudo zypper install gcc gcc-c++ make flex bison libpcap-devel pcre pcre-devel libdnet-devel zlib-devel luajit luajit-devel libopenssl-devel libtirpc-devel
 ```
+📷 Screenshot:
+ ![step1](Screenshots/step1_image1.png)
+
+2. The configure command must end with the following:
+ 📷 Screenshot:
+ ![step1](Screenshots/step1_image2.png) 
+
+ ### 🔹 Step 2:	Downloading Required Files ###
+
+1. Navigate to the Downloads directory:
+```bash
+cd ~/Downloads
+```
+📷 Screenshot:
+![step2](Screenshots/step2_image1.png) 
+
+2. Download the required packages:
+```bash
+wget -c https://snort.org/downloads/snort/daq-2.0.7.tar.gz
+```
+📷 Screenshot:
+![step2](Screenshots/step2_image2.png)  
+
+```bash
+wget -c https://snort.org/downloads/snort/snort-2.9.20.tar.gz 
+```
+📷 Screenshot:
+![step2](Screenshots/step2_image3.png)   
+
+
+
+
+
+
+
+
+
+
+
+
+
