@@ -81,7 +81,7 @@ Demonstration output:
 - Rules differentiate attacks by protocol, port, flags, and behaviour.
 - tcpdump confirmed attack detection.
 Rules that I put in ‘local.rules’:
-![Q4](Screenshot/local_rules.png)  
+![Q4](Screenshots/local_rules.png)  
 
 ---
 
@@ -97,7 +97,7 @@ Software was installed in a virtual machine:
 ## Network Card Configuration ##
 Run VMWare manager and configure the **‘Network Adapter’** of the guest machine to
 **‘Bridged (Automatic)'** mode.
-![NCC](Screenshot/network_card.png) 
+![NCC](Screenshots/network_card.png) 
 
 ---
 
@@ -106,7 +106,7 @@ Start your guest machine and set its network interface card to a static IP, for 
 ```bash
 ifconfig
 ```
-![GM](Screenshot/guest_machine.png)
+![GM](Screenshots/guest_machine.png)
 
 ---
 
@@ -120,12 +120,12 @@ sudo zypper install gcc gcc-c++ make flex bison libpcap-devel pcre pcre-devel li
 ```
 
 📷 Screenshot:
-![step1](Screenshot/step1_image1.png)
+![step1](Screenshots/step1_image1.png)
 
 2. The configure command must end with the following:
 
 📷 Screenshot:
-![step1](Screenshot/step1_image2.png) 
+![step1](Screenshots/step1_image2.png) 
 
  ### 🔹 Step 2: Downloading Required Files ###
 
@@ -135,7 +135,7 @@ cd ~/Downloads
 ```
 
 📷 Screenshot:
-![step2](Screenshot/step2_image1.png) 
+![step2](Screenshots/step2_image1.png) 
 
 2. Download the required packages:
 ```bash
@@ -143,14 +143,14 @@ wget -c https://snort.org/downloads/snort/daq-2.0.7.tar.gz
 ```
 
 📷 Screenshot:
-![step2](Screenshot/step2_image2.png)  
+![step2](Screenshots/step2_image2.png)  
 
 ```bash
 wget -c https://snort.org/downloads/snort/snort-2.9.20.tar.gz 
 ```
 
 📷 Screenshot:
-![step2](Screenshot/step2_image3.png)   
+![step2](Screenshots/step2_image3.png)   
 
 ### 🔹 Step 3: Extracting Files ###
 
@@ -160,7 +160,7 @@ sudo su
 ```
 
 📷 Screenshot:
-![step3](Screenshot/step3_image1.png)  
+![step3](Screenshots/step3_image1.png)  
 
 
 
