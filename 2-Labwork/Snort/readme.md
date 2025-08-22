@@ -162,7 +162,13 @@ sudo su
 📷 Screenshot:
 ![step3](Screenshots/step3_image1.png)  
 
+2. Move to the source directory:
+```bash
+cd /usr/local/src
+```
 
+📷 Screenshot:
+![step3](Screenshots/step3_image2.png)
 
 
 
