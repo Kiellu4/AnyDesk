@@ -112,3 +112,11 @@ ifconfig
 ![GM](Screenshots/guest_machine.png)
 
 ---
+
+## Snort Installation Guide ##
+
+### 1. Prerequisites ###
+Before installing Snort, ensure you have the necessary dependencies by running:
+```bash
+sudo zypper install gcc gcc-c++ make flex bison libpcap-devel pcre pcre-devel libdnet-devel zlib-devel luajit luajit-devel libopenssl-devel libtirpc-devel
+```
